@@ -1,0 +1,14 @@
+Chapter1 Day1
+There are a varitety of different blockchains. A blockchain is a decentralized database that stores information and is open for anyone to view and interact with. The data entered is secure and irreversible. For example, the blockchain is used for history of transactions that will be permanently recorded and viewable to the public.
+Smart contracts are developer created programs that are deployed to specify functionality in order for people to interact with it. Smart contracts can be seen as a secure agreement that guarantees the outcome for all participants. Important to note, it is the developer's responsibility to ensure there are no security flaws. Without a middleman or need for third party approval, this process is quick and efficient.
+The main differences between a transaction and a script are cost and ability to change and view data on the blockchain. A transaction is a paid function that changes data on the blockchain. A script only allows data to be viewed, not changed, and is always free.
+
+Chapter1 Day2
+The 5 Cadence programming pillars are:
+1. Safety and security- Meaning smart contracts are virtually bug-free and functions accurately while also avoiding malicious smart contract attacks.
+2. Clarity- Easy readability of smart contracts that hand-in-hand allows efficient reviewing and auditing with low cost.
+3. Approachability- For example, because of adopted features from other languages, developers will find Cadence familiar and be able to quickly start creating programs.
+4. Developer experience- Full support throughout the programming experience from initial logic and development to on-chain bugfixes.
+5. Resource oriented programming- Unique to the Cadence language.
+
+Safety and security is important not only for the developer, but for anyone interacting with a smart contract. Similar to an alarm system in a house, having the ability to choose an option with more safety and security built in provides a guarantee of the end result and relieves any uncertainty of malicious behaviour. Developer experience, including clarity and approachability, enables efficiency from the start. The developers experience a familiarity and can easily express their intentions.
