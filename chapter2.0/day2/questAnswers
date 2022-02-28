@@ -1,0 +1,3 @@
+We wouldn't call changeGreeting in a script because scripts are free and therefore do not allow modification to the state of the contract.
+In the prepare phase of a transaction, AuthAccount means we can access data inside the account. Every time a user sends a transaction, another user pays for that transaction and gives approval by signing it. On Flow, this means we can store data in our own account as opposed to in the smart contract itself.
+Prepare phase has access to the information and data in an account. Execute phase calls a function to change data in an account.
