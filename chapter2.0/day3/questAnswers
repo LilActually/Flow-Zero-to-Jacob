@@ -1,0 +1,4 @@
+1. Screenshot #1
+2. Screenshot #2
+3. The force-unwrap operator in my example is accessing values of a dictionary for caffeine levels in different types of tea. Since I will always get an optional back, I unwrapped it using the force-unwrap operator "!" in order to get the actual value. (Screenshot #3)
+4. In the photo provided, the error message is showing the types are mismatched. It is expecting a String, but it is returning an optional. The error can be fixed by unwrapping using the force-unwrap operator "!". (Screenshot #4)
