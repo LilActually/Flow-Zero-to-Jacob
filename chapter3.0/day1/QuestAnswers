@@ -1,0 +1,14 @@
+1. Three ways structs are different from resources include:
+  -Scructs are not as secure as resources because they can be copied, overwritten, and created at any time.
+  -Structs can be created outside of the contract, whereas resources are created strictly inside the contract which is controlled by the developer.
+  -Structs can be moved around, resources explicitly need the <- "move operator" to reassign it.
+  
+ 2. In a situation where I want to send someone an NFT worth millions of dollars, I would want to use a more secure resource instead of a struct to ensure that NFT will not be lost. I would need to physically type and destroy it in order for it to be removed, which gives peace of mind to the developer.
+  
+ 3. Keyword to make a new resource is create (In Cadence, we use an @ symbol in front of the type)
+  
+ 4. A resource cannot be created in a script or transaction, the 'create' keyword can only be used inside the contract.
+  
+ 5. Jacob is the resource type (@Jacob)
+ 
+ 6. Corrected code provided in screenshot :)
