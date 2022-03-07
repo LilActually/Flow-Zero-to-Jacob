@@ -1,0 +1,1 @@
+In Cadence, references can be helpful to look at or change data within a resource. Instead of moving that resource around to access the data, you can use type casting and return the reference data to you in a transaction or script.
