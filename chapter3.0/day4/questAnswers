@@ -1,0 +1,3 @@
+1. One main use of a resource interface can be to require data to be exposed from a resource or struct, meaning whatever is inside the interface need to be specifically defined. Another use can be to restrict access of certain things to certain people by naming the resource interface in the middle of {} brackets, meaning that specific resource can only use things exposed by the interface.
+2. Screentshot :)
+3. Fixed code in second screenshot :)
