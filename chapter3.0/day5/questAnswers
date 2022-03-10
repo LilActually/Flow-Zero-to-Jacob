@@ -1,0 +1,29 @@
+variable a-
+  area 1: read scope, write scope
+  area 2: read scope, write scope
+  area 3: read scope, write scope
+  area 4: read scope, write scope
+  
+ variable b-
+  area 1: read scope, write scope
+  area 2: read scope
+  area 3: read scope
+  area 4: read scope
+  
+ variable c-
+  area 1: read scope, write scope
+  area 2: read scope
+  area 3: read scope
+  area 4: none
+  
+ variable d-
+  area 1: read scope. write scope
+  area 2: none
+  area 3: none
+  area 4: none
+  
+  pub fun publicFuncOne() {} access scope: all
+  
+  access(contract) fun contractFunc() {} access scope: current, inner, and containing contract
+  
+  access(self) fun privateFunc() {} access scope: current and inner
