@@ -1,0 +1,17 @@
+1. The contract code deployed to an account (can be multiple) and all data stored inside your account storage all live inside an account.
+
+2. Differences between /storage/, /public/, and /private/ paths:
+  The /storage/ path is where all of your data lives and is only accessible by the account owner.
+  The /public/ path is available to everyone.
+  The /private/ path is accessible by the account owner and other people who have been given access by the account owner.
+  
+3. Differences between .save(), .load(), and .borrow():
+  The .save() function is used to save something to the account. By first adding a 'AuthAccount' to save it to, it then takes in 2 parameters; the actual data to     save and a 'to:' parameter that is the path it is being saved to.
+  The .load() function takes data out of account storage by only using one parameter 'from:' that is the path it should be taken from. Important to remember that     when you .load data from storage, it returns an optional.
+  The .borrow() function is used to get a reference of a resource in an account storage by taking in one parameter 'from:' that is the path we should take it from.   Unlike .load(), .borrow() keeps the resource inside our account storage and is only getting a reference, not the resource itself.
+  
+  4. We could not save something to our account storage inside of a script because it needs an AuthAccount to save it to which can only be done in the prepare       phase of a transaction. Transactions can access the signer's account, scripts can just view and return something.
+  
+  5. You could not save something to my account because only the account owner has access to /storage/
+  
+  6. Screenshots :)
