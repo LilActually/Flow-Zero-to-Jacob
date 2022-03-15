@@ -1,0 +1,6 @@
+In Cadence, if you have nested resources you must declare a 'destroy' function that manually destroys the nested resources with the destroy keyword.
+
+Idea #1: Do we really want everyone to be able to mint an NFT?
+  I think in most cases there is a "presale" phase where only certain members of the community have the opportunity to mint before the general public, this could be a reason for needing to retrict access to certain people at a certain time.
+Idea #2: If we want to read information about our NFTs inside our collection, we have to take it out of the Collection to do so. Is this good?
+  It would be inconvenient to have to use the .load() function to take it out of our Collection every time we want to read from it. Using the .borrow() funtion       instead would get a reference to the resource in our storage and not the resource itself so the resource stays inside the account storage. 
