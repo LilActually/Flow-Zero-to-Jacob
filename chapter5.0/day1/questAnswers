@@ -1,0 +1,5 @@
+An event is a way for a smart contract to communicate and relay real-time information to the blockchain when an action takes place. This is helpful to a client so their code can be updated accordingly when an NFT is minted. Events can also conveniently tell us the total supply instead of relying strictly on the contract itself.
+
+Function numberOne: will log the name 'Jacob' because the length = 5.
+Function numberTwo: will return a value. In the pre-condition, 'Jacob' is greater than 0. In the post-condition, name.concat("Tucker") will string together Jacob and Tucker resulting in 'Jacob Tucker'.
+Function numberThree: will not log the updated number. self.number = 0, self.number will try to return a 1 because self.number=self.number+1. In the post-condition, before(self.number)=result+1 will want the result to be 2. It will then panic and self.number will be reverted back to 0.
